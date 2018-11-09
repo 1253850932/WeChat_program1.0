@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib"
+  ],
+  "window": {
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "凯哥学堂",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/HomeAction.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的视频",
+        "iconPath": "images/Videodefault.png"
+      },
+      { 
+        "pagePath": "pages/index/index",
+        "text": "个人信息",
+        "iconPath": "images/Moredefault.png"
+      }
+    ]
+  }
+    
+}

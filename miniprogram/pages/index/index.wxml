@@ -1,0 +1,51 @@
+<view>
+  <view class='banner'>
+    <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+      <block wx:for="{{movies}}" wx:for-index="index">
+        <swiper-item>
+          <image src="{{item.url}}" class="slide-image" mode="aspectFill" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <!-- 第一块视频 -->
+  <view>
+    <view class='vcontation'>
+      <navigator url="clsShow.html">
+        <image class="image_frame" src="https://img1.mukewang.com/5aaf5f370001c40306000338-590-330.jpg" mode="aspectFill">
+        </image>
+        <text>\nJava基础视频入门阶段</text>
+        <text>\n免费</text>
+      </navigator>
+    </view>
+
+    <view class='vcontation'>
+      <navigator url="clsShow.html">
+        <image class="image_frame" src="https://img1.mukewang.com/5aaf5f370001c40306000338-590-330.jpg" mode="aspectFill">
+        </image>
+        <text>\nJava基础视频入门阶段</text>
+        <text>\n免费</text>
+      </navigator>
+    </view>
+
+    <view class='vcontation'>
+      <navigator url="clsShow.html">
+        <image class="image_frame" src="https://img1.mukewang.com/5aaf5f370001c40306000338-590-330.jpg" mode="aspectFill">
+        </image>
+        <text>\nJava基础视频入门阶段</text>
+        <text>\n免费</text>
+      </navigator>
+    </view>
+  </view>
+
+  <view class='vcontation'>
+      <navigator url="clsShow.html">
+        <image class="image_frame" src="https://img1.mukewang.com/5aaf5f370001c40306000338-590-330.jpg" mode="aspectFill">
+        </image>
+        <text>\nJava基础视频入门阶段</text>
+        <text>\n免费</text>
+      </navigator>
+    </view>
+
+</view>
